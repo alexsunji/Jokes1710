@@ -14,6 +14,9 @@
 		F033A8671BD25099005CAB77 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F033A8661BD25099005CAB77 /* Images.xcassets */; };
 		F033A86A1BD25099005CAB77 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F033A8681BD25099005CAB77 /* LaunchScreen.xib */; };
 		F033A8761BD25099005CAB77 /* JokesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F033A8751BD25099005CAB77 /* JokesTests.m */; };
+		F033A8811BD266B1005CAB77 /* JokesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F033A8801BD266B1005CAB77 /* JokesViewController.m */; };
+		F033A8841BD2773D005CAB77 /* Joke.m in Sources */ = {isa = PBXBuildFile; fileRef = F033A8831BD2773D005CAB77 /* Joke.m */; };
+		F033A8871BD2881A005CAB77 /* JokeDetailedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F033A8861BD2881A005CAB77 /* JokeDetailedViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,12 @@
 		F033A86F1BD25099005CAB77 /* JokesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JokesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F033A8741BD25099005CAB77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F033A8751BD25099005CAB77 /* JokesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JokesTests.m; sourceTree = "<group>"; };
+		F033A87F1BD266B1005CAB77 /* JokesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JokesViewController.h; sourceTree = "<group>"; };
+		F033A8801BD266B1005CAB77 /* JokesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JokesViewController.m; sourceTree = "<group>"; };
+		F033A8821BD2773D005CAB77 /* Joke.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Joke.h; sourceTree = "<group>"; };
+		F033A8831BD2773D005CAB77 /* Joke.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Joke.m; sourceTree = "<group>"; };
+		F033A8851BD2881A005CAB77 /* JokeDetailedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JokeDetailedViewController.h; sourceTree = "<group>"; };
+		F033A8861BD2881A005CAB77 /* JokeDetailedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JokeDetailedViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +72,10 @@
 		F033A84D1BD25099005CAB77 = {
 			isa = PBXGroup;
 			children = (
+				F033A87F1BD266B1005CAB77 /* JokesViewController.h */,
+				F033A8801BD266B1005CAB77 /* JokesViewController.m */,
+				F033A8821BD2773D005CAB77 /* Joke.h */,
+				F033A8831BD2773D005CAB77 /* Joke.m */,
 				F033A8581BD25099005CAB77 /* Jokes */,
 				F033A8721BD25099005CAB77 /* JokesTests */,
 				F033A8571BD25099005CAB77 /* Products */,
@@ -86,6 +99,8 @@
 				F033A8601BD25099005CAB77 /* ViewController.h */,
 				F033A8611BD25099005CAB77 /* ViewController.m */,
 				F033A8631BD25099005CAB77 /* Main.storyboard */,
+				F033A8851BD2881A005CAB77 /* JokeDetailedViewController.h */,
+				F033A8861BD2881A005CAB77 /* JokeDetailedViewController.m */,
 				F033A8661BD25099005CAB77 /* Images.xcassets */,
 				F033A8681BD25099005CAB77 /* LaunchScreen.xib */,
 				F033A8591BD25099005CAB77 /* Supporting Files */,
@@ -219,9 +234,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F033A8841BD2773D005CAB77 /* Joke.m in Sources */,
 				F033A8621BD25099005CAB77 /* ViewController.m in Sources */,
 				F033A85F1BD25099005CAB77 /* AppDelegate.m in Sources */,
 				F033A85C1BD25099005CAB77 /* main.m in Sources */,
+				F033A8811BD266B1005CAB77 /* JokesViewController.m in Sources */,
+				F033A8871BD2881A005CAB77 /* JokeDetailedViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
