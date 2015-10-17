@@ -59,7 +59,7 @@ UITableViewDataSource, UITableViewDelegate>
 -(void)updateData {
     
     //1
-   NSString *urlString = @"http://www.umori.li/api/get?site=bash.im&name=bash&num=5";
+   NSString *urlString = @"http://www.umori.li/api/get?site=bash.im&name=bash&num=20";
     
     
     
